@@ -1,0 +1,14 @@
+[project]
+name = "covtest"
+
+[tool.coverage.run]
+relative_files = true
+
+[tool.coverage.report]
+ignore_errors = true
+
+[tool.pytest.ini_options]
+addopts = [
+  "--cov-report=html",
+]
+
